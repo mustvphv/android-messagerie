@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:id="@+id/Pseudo"
+            android:hint="Pseudonyme"
+            android:paddingLeft="10dp"
+            android:textColorHint="#000"
+            android:textSize="22dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:id="@+id/Email"
+            android:hint="E-mail"
+            android:paddingLeft="10dp"
+            android:textColorHint="#000"
+            android:textSize="22dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:id="@+id/Password"
+            android:hint="Password"
+            android:paddingLeft="10dp"
+            android:textColorHint="#000"
+            android:textSize="22dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:id="@+id/Password2"
+            android:hint="Password"
+            android:paddingLeft="10dp"
+            android:textColorHint="#000"
+            android:textSize="22dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:text="S'inscrire"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
