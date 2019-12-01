@@ -14,7 +14,7 @@
         <EditText
             android:layout_width="250dp"
             android:layout_height="50dp"
-            android:id="@+id/Pseudoc"
+            android:id="@+id/pseudoc"
             android:hint="Pseudonyme"
             android:paddingLeft="10dp"
             android:textColorHint="#000"
@@ -25,7 +25,7 @@
         <EditText
             android:layout_width="250dp"
             android:layout_height="50dp"
-            android:id="@+id/Passwordc"
+            android:id="@+id/passwordc"
             android:hint="Password"
             android:paddingLeft="10dp"
             android:textColorHint="#000"
@@ -34,11 +34,11 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/border"/>
 
-
         <Button
+            android:id="@+id/button_connexion"
             android:layout_width="130dp"
             android:layout_height="40dp"
-            android:text="S'inscrire"
+            android:text="Connexion"
             android:layout_marginTop="30dp"/>
 
     </LinearLayout>
